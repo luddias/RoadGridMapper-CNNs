@@ -13,8 +13,8 @@ import tensorflow as tf
 from keras.models import load_model
 from tools.utils import get_class_weights, batch_generator, generate_batchs, get_callbacks
 import os
-from classes.Dataset import Dataset
-from classes.Metrics import Metrics
+from classes.dataset import Dataset
+from classes.metrics import Metrics
 from tensorflow.keras.utils import normalize
 
 BATCH_SIZE = 8
