@@ -1,4 +1,4 @@
-from Dataset import Dataset
+from dataset import Dataset
 import argparse
 from utils import get_class_weights
 
