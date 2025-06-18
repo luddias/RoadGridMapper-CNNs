@@ -1,5 +1,5 @@
 import numpy as np
-import classes.Dataset as Dataset
+import classes.dataset as Dataset
 import pandas as pd
 import cv2
 import albumentations as A
