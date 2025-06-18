@@ -4,7 +4,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLRO
 import tensorflow as tf
 from tools.utils import get_class_weights, batch_generator, generate_batchs, get_callbacks
 import os
-from classes.Dataset import Dataset
+from classes.dataset import Dataset
 
 LR = 5e-3
 BATCH_SIZE = 4
