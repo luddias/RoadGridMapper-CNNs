@@ -5,7 +5,7 @@ import numpy as np
 import random
 from tensorflow.keras.utils import normalize
 num_imgs = 3555
-from classes.Dataset import Dataset as SegmentationDataset
+from classes.dataset import Dataset as SegmentationDataset
 from tensorflow.keras.models import load_model
 from tools.utils import *
 
